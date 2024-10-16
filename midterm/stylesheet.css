@@ -4,7 +4,17 @@
     width: 900px;
 }
 
-title {
-    width:
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom:10px;
+}
 
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
 }
