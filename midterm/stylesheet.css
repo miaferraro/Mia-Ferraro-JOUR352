@@ -7,10 +7,16 @@
 #site-name {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    margin-bottom:10px;
+    margin-bottom:0px;
     text-align: center;
-    word-spacing: 5px;
-    color: rgb(87, 69, 48);
+    color: rgb(100, 79, 55);
+}
+
+.steam {
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #description {
@@ -18,13 +24,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-left:5px;
+    margin-bottom: auto;
+    color: rgb(126, 100, 57)
 }
 
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 500px;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 header {
@@ -32,9 +48,10 @@ header {
 }
 
 #headline {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    text-align: center;
 }
 
 h2 {
@@ -42,9 +59,19 @@ h2 {
     font-size: 20px;
 }
 
-
 p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
     letter-spacing: 0.5px;
+}
+
+#subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+#byline {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
