@@ -10,6 +10,7 @@
     margin-bottom:10px;
     text-align: center;
     word-spacing: 5px;
+    color: rgb(87, 69, 48);
 }
 
 #description {
@@ -20,9 +21,14 @@
     margin-top: 20px;
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     padding-bottom: 5px;
-    border-bottom: 1.5px solid black;
 }
 
 #headline {
@@ -35,7 +41,6 @@ h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 20px;
 }
-
 
 
 p {
