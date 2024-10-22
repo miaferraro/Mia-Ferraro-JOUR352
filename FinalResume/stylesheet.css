@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     padding: 10px;
-    font-size: 2px;
+    font-size: 20px;
     background-color: lightblue;
 }
 
@@ -24,6 +24,6 @@ body {
     top: 0;
     right: 0;  /* Align to the right */
     padding: 10px;
-    font-size: 18px;
+    font-size: 58px;
     background-color: lightgreen;
 }
