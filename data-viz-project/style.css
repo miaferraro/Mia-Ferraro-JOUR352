@@ -40,13 +40,6 @@ img {
     margin-right: auto;
 }
 
-.caption {
-    font-size: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
-    color: gray;
-    text-align: center;
-}
 
 footer {
     background-color: black;
@@ -58,4 +51,14 @@ footer {
     padding-top: 10px;
     font-size: 12px;
     padding-bottom: 70px;
+}
+
+
+.iframe {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
