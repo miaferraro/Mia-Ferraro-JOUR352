@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story with Sidebar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="masthead">
+        <h1>Welcome to the Climate Report</h1>
+      </header>
+
+  <div class="container">
+    <!-- Main Story -->
+    <div class="main-story">
+      <h1>The Story of Innovation</h1>
+      <p>
+        Innovation has been a driving force behind human progress. From the wheel to the internet,
+        each leap forward has transformed how we live and interact with the world.
+      </p>
+      <p>
+        In the 21st century, the pace of innovation has only accelerated, with advancements in technology,
+        medicine, and communication reshaping society at an unprecedented rate. But what drives innovation?
+        It's the combination of curiosity, creativity, and courage to challenge the status quo.
+      </p>
+      <p>
+        As we move forward, the question remains: how do we ensure innovation benefits everyone?
+        The answer lies in collaboration, inclusivity, and ethical practices.
+        </p>
+        <p>
+        Innovation has been a driving force behind human progress. From the wheel to the internet,
+        each leap forward has transformed how we live and interact with the world.
+      </p>
+      <p>
+        In the 21st century, the pace of innovation has only accelerated, with advancements in technology,
+        medicine, and communication reshaping society at an unprecedented rate. But what drives innovation?
+        It's the combination of curiosity, creativity, and courage to challenge the status quo.
+      </p>
+      <p>
+        As we move forward, the question remains: how do we ensure innovation benefits everyone?
+        The answer lies in collaboration, inclusivity, and ethical practices.
+        </p>
+        <p>
+            Innovation has been a driving force behind human progress. From the wheel to the internet,
+            each leap forward has transformed how we live and interact with the world.
+          </p>
+          <p>
+            In the 21st century, the pace of innovation has only accelerated, with advancements in technology,
+            medicine, and communication reshaping society at an unprecedented rate. But what drives innovation?
+            It's the combination of curiosity, creativity, and courage to challenge the status quo.
+          </p>
+          <p>
+            As we move forward, the question remains: how do we ensure innovation benefits everyone?
+            The answer lies in collaboration, inclusivity, and ethical practices.
+            </p>
+            <p>
+            Innovation has been a driving force behind human progress. From the wheel to the internet,
+            each leap forward has transformed how we live and interact with the world.
+          </p>
+          <p>
+            In the 21st century, the pace of innovation has only accelerated, with advancements in technology,
+            medicine, and communication reshaping society at an unprecedented rate. But what drives innovation?
+            It's the combination of curiosity, creativity, and courage to challenge the status quo.
+          </p>
+          <p>
+            As we move forward, the question remains: how do we ensure innovation benefits everyone?
+            The answer lies in collaboration, inclusivity, and ethical practices.
+            </p>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Did You Know?</h2>
+      <p>
+        The word "innovation" comes from the Latin *innovare*, which means "to renew or change."
+      </p>
+      <p>
+        Many of the world’s most transformative innovations, such as the light bulb and the airplane,
+        were developed in the late 19th and early 20th centuries.
+      </p>
+      <p>
+        Today, tech companies spend billions of dollars annually on research and development to
+        drive the next wave of innovation.
+      </p>
+    </aside>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sidebar = document.querySelector(".sidebar");
+        const masthead = document.querySelector(".masthead");
+        const mastheadHeight = masthead.offsetHeight;
+    
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > mastheadHeight) {
+            sidebar.classList.add("fixed");
+          } else {
+            sidebar.classList.remove("fixed");
+          }
+        });
+      });
+    </script>
+    
+  </div>
+</body>
+</html>
